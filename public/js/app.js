@@ -1,4 +1,6 @@
 console.log("testing no 1")
+console.log("succusfully pushed the code")
+
 fetch('http://puzzle.mead.io/puzzle').then((response)=>{
     response.json().then((data)=>{
       console.log(data)
